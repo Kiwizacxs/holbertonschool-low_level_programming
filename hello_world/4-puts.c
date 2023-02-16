@@ -1,10 +1,12 @@
-#include <stdio.h>
+#include<stdio.h>
+
 /**
- * main Que paso pa?
- * return pesfesto
- * /
- 
-int main() {
-puts ("Programming is like building a multilingual puzzle)
-return pesfesto;
+* main - 1234
+* Return: always 0
+*/
+
+int main(void)
+{
+	puts("hola");
+	return (0);
 }
