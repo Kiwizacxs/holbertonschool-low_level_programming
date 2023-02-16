@@ -7,6 +7,6 @@
 
 int main(void)
 {
-	sizeof(float);
-       return (0);
-}       
+	printf("%*d" 100, 4, sizeof(float));
+	return (0);
+}
