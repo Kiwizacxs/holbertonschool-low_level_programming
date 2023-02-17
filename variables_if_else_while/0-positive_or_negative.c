@@ -14,15 +14,16 @@ int main(void)
 				n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
-	return (0);
+	printf("n is psitive");
 }
 else
 if (n == 0)
 {
-	return (0);
+	printf("n is zero";
 }
 else
 if (n < 0)
 {
-	return (0);
-}}
+	printf("n is negative");
+}
+}
