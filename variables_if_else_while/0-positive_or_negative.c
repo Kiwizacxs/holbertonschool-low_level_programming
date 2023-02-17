@@ -14,16 +14,16 @@ int main(void)
 				n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
-	return (n);
+	return (0);
 }
 else
 if (n == 0)
 {
-	return (n);
+	return (0);
 }
 else
 if (n < 0)
 {
-	return (n);
+	return (0);
 }
 }
