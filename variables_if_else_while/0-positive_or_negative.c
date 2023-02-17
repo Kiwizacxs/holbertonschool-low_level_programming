@@ -24,7 +24,7 @@ if (n == 0)
 else
 if (n < 0)
 {
-	printf("'n' is negtive");
+	printf("%#lx, is negtive");
 }
 return (0);
 }
