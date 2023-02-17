@@ -1,14 +1,17 @@
 #include <stdio.h>
 
 /**
-* main - Anda pa alla bobo
-* Return: 0
+* main - 1234
+* Return: alway 0
 */
 
 int main(void)
 {
 	char a = 'a';
-	for(a = 'a'; a <= 'z'; a++)
-		putchar(a);
+
+	for (a = 'a'; a <= 'z'; a++)
+
+		putchar (a);
+	putchar ('\n')
 	return (0);
 }
