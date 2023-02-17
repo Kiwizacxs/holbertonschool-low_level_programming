@@ -26,6 +26,6 @@ if (n < 0)
 {
 	printf("n is negative");
 }
-return (0)
+return (0);
 	}
 
