@@ -7,11 +7,6 @@
 
 int main(void)
 {
-	char q = 0;
-	{
-		for (q = 0; q <= 10; q++)
-
-			putchar (q);
-	}
+	printf("%d%d%d%d%d%d%d%d%d%d%d", 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 	return (0);
 }
