@@ -16,6 +16,7 @@ int main(void)
 	{
 		for (b = 'a'; b <= 'f'; b++)
 			putchar (b);
+		putchar ('\n');
 	}
 return (0);
 }
