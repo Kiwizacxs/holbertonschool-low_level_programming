@@ -8,14 +8,18 @@
 int main(void)
 {
 	int a = 0;
+	int b = 9;
 	{
-		for (a = 0; a <= 9; a++);
+		while (a <= b)
+		{
+			putchar ((a) + '0');
+			a++;
+		if (a <= 9)
+			{
 		putchar (',');
 		putchar ('\t');
-		putchar ((a) + '0');
-}
-{
-	putchar ('$');
-}
+			}
+		};
+	}
 return (0);
 }
