@@ -5,7 +5,7 @@
 *  Return: always 0.
 */
 
-int _islower(int c)
+int _islower(void)
 {
 	if (c >= 'a' && c <= 'z')
 	{
@@ -15,5 +15,4 @@ int _islower(int c)
 	{
 		_putchar ((c) + '1');
 	}
-		return (0);
 }
