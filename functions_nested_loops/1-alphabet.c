@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
-* main - 1223
+* print_alphabet - 1234
 * Return: Always 0.
 */
-
-int main(void)
+void print_alphabet(void)
 {
 	char a = 'a';
 		while (a <= 'z')
 		{
-			_putchar(a);
+		_putchar (a);
 		a++;
 		}
 		return (0);
