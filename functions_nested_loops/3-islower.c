@@ -7,7 +7,7 @@
 
 int _islower(int c)
 {
-	if ( c <= 'a' && c >= 'z')
+	if (c <= 'a' && c >= 'z')
 	{
 		_putchar ('1');
 	}
@@ -15,4 +15,5 @@ int _islower(int c)
 	{
 		_putchar ('0');
 	}
+	return (0);
 }
