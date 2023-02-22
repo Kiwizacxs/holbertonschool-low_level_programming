@@ -7,11 +7,9 @@
 
 int _isalpha(int c)
 {
-	int b = 'a';
 	{
-	if (c = (a-zA-Z))
+	if (c = a-zA-Z)
 	{
-	
 		return (1)
 	}
 	}
