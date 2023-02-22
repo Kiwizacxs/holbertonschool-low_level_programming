@@ -7,10 +7,10 @@
 
 int _isalpha(int c)
 {
-	int a = 'a';
-	int z = 'z';
-	int A = 'A';
-	int Z = 'Z';
+	int a;
+	int z;
+	int A;
+	int Z;
 	{
 	if (c = a-zA-Z)
 	{
