@@ -1,4 +1,4 @@
-#include "maina.h"
+#include "mn.h"
 
 /**
 * _isalpha - 1234
