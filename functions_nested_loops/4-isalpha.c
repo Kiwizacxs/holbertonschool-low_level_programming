@@ -7,14 +7,7 @@
 
 int _isalpha(int c)
 {
-	int a;
-	int z;
-	int A;
-	int Z;
-	{
-	if (c = a-zA-Z)
-	{
+	if (c <= 'a'&& c >= 'z')
 		return (1)
-	}
 	}
 }
