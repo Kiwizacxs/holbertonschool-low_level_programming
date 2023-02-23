@@ -12,7 +12,6 @@ void jack_bauer(void)
 	int mn2 = 0;
 	int hor = 0;
 	int hr2 = 0;
-
 	while (hor != 3)
 	{
 		_putchar ((hor) + '0');
