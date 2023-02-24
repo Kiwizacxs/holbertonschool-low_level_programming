@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _isupper
- * @c - hola
- * Return: Always 0.
- */
+* _isupper - hola
+*@c: hola
+* Return: Always 0.
+*/
 
 int _isupper(int c)
 {
