@@ -17,7 +17,7 @@ void print_to_98(int n)
 			_putchar ('-');
 			_putchar (((n / d) * (-1)) + '0');
 			_putchar (((n % d) * (-1)) + '0');
-			_putchar (','), _putchar (' '), _putchar ('-');
+			_putchar (','), _putchar (' ');
 		}
 		if (n < 0 && n > -10)
 		{
