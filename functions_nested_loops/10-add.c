@@ -3,8 +3,8 @@
 
 /**
 * add - hola
-* @a - jijijija
-* @b - bondiola
+* @a: jijijija
+* @b: bondiola
 * Return: Always 0.
 */
 
