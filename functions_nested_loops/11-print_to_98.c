@@ -2,6 +2,7 @@
 
 /**
 * print_to_98 - hola
+* @n: hola
 * Return: Always 0.
 */
 
@@ -11,7 +12,7 @@ void print_to_98(int n)
 
 	while (n != 98)
 	{
-		if (n == -10)
+		if (n <= -10 && n > -99)
 		{
 			_putchar ('-');
 			_putchar (((n / d) * (-1)) + '0');
