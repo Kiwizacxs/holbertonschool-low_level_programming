@@ -2,8 +2,6 @@
 
 /**
 * main - hola
-* @fizz: holas
-* @buzz: queonda
 * Return: 0.
 */
 int main(void)
