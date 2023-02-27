@@ -13,36 +13,33 @@ int main(void)
 
 	for (n = 1; n <= q; n++)
 	{
-		if (n > 1 && n <= 99)
+		if (n > 1 && n <= 100)
 		{
 			putchar (' ');
 		}
-		if (n % 3 == 0)
+		if (n % 5 == 0 && n % 3 == 0)
 		{
-			putchar ('F');
-			putchar ('i');
-			putchar ('z');
-			putchar ('z');
-			putchar (' ');
+			putchar ('F'), putchar ('i'), putchar ('z'), putchar ('z');
+			putchar ('B'), putchar ('u'), putchar ('z'), putchar ('z');
 		}
-		else if (n % 5 == 0)
-		{
-			putchar ('B');
-			putchar ('u');
-			putchar ('z');
-			putchar ('z');
-			putchar (' ');
-		}
-		else 
-		{
-			if (n > 9)
+		else
+			if (n % 3 == 0)
 			{
-				putchar ((n / 10) + '0');
-				putchar ((n % 10) + '0');
+				putchar ('F'), putchar ('i'), putchar ('z'), putchar ('z');
+			}
+			else if (n % 5 == 0)
+			{
+				putchar ('B'), putchar ('u'), putchar ('z'), putchar ('z');
 			}
 			else
+			{
+				if (n > 9)
+				{
+					putchar ((n / 10) + '0'), putchar ((n % 10) + '0');
+				}
+			else
 				putchar ((n) + '0');
-		}
+			}
 	}
 	return (0);
 }
