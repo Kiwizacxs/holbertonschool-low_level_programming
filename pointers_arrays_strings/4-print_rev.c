@@ -16,7 +16,7 @@ void print_rev(char *s)
 	{
 		regio--;
 	}
-	while (a != 1)
+	while (regio != 1)
 	{
 		s--;
 		if (*s != '\0')
