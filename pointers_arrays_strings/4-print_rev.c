@@ -14,7 +14,7 @@ void print_rev(char *s)
 
 	while (*s++)
 	{
-		a--;
+		regio--;
 	}
 	while (a != 1)
 	{
