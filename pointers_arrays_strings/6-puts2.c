@@ -2,6 +2,8 @@
 
 /**
 * puts2 - hola
+* @*str: seno
+* @str: coseno
 */
 
 void puts2(char *str)
