@@ -13,7 +13,7 @@ int _atoi(char *s)
 	int g = 0;
 	int r = 0;
 	int b = strlen(s);
-	int sign = 1;
+	unsigned int sign = 1;
 
 	while (r != b)
 	{
