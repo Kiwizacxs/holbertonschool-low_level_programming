@@ -12,7 +12,7 @@ int _atoi(char *s)
 {
 	int g = 0;
 	int r = 0;
-	int b = strlen(s);
+	unsigned int b = strlen(s);
 	unsigned int sign = 1;
 
 	while (r != b)
