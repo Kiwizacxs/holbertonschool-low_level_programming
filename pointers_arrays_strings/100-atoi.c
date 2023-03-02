@@ -10,10 +10,10 @@
 
 int _atoi(char *s)
 {
-	int g = 0;
+	unsigned int g = 0;
 	int r = 0;
-	unsigned int b = strlen(s);
-	unsigned int sign = 1;
+	int b = strlen(s);
+	int sign = 1;
 
 	while (r != b)
 	{
