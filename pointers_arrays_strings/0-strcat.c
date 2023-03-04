@@ -4,7 +4,7 @@
 
 /**
  * _strcat - hii
- * @str: man
+ * @src: man
  * @dest: woman
  * Return: dest
  */
