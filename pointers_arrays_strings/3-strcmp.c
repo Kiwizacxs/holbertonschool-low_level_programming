@@ -23,7 +23,7 @@ int _strcmp(char *s1, char *s2)
 	}
 	if (b < a)
 	{
-		r = 13;
+		r = -13;
 	}
 	else if (b == a)
 	{
@@ -31,7 +31,7 @@ int _strcmp(char *s1, char *s2)
 	}
 	else if (b > a)
 	{
-		r = -13;
+		r = 13;
 	}
 	return (r);
 }
