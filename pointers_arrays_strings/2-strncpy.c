@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _strncpy - leol
@@ -11,7 +12,6 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 	int b = 0;
-	int r = strlen(src;)
 
 	while (b !=  n)
 	{
@@ -22,10 +22,7 @@ char *_strncpy(char *dest, char *src, int n)
 		}
 		b++;
 	}
-	if (n < r)
-	{
-		dest[b] = '\0';
-	}
+	printf("%d\n", n);
 	return (dest);
 
 }
