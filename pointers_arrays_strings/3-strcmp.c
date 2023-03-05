@@ -2,8 +2,8 @@
 
 /**
  * _strcmp - lole
- * @dest: melo
- * @src: paisje
+ * @s1: melo
+ * @s2: paisje
  * Return: 0.
  */
 
