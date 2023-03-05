@@ -22,7 +22,6 @@ char *_strncpy(char *dest, char *src, int n)
 		}
 		b++;
 	}
-	printf("%d\n", n);
 	return (dest);
 
 }
