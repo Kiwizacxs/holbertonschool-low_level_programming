@@ -12,9 +12,9 @@ char *_strncpy(char *dest, char *src, int n)
 {
 	int b = 0;
 
-	while (b !=  n)
+	while (b !=  n + 1)
 	{
-		dest[b] = src [b];
+		dest[b] = src[b];
 		if (dest[b] == '\0')
 		{
 			break;
