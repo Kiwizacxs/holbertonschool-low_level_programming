@@ -11,6 +11,7 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 	int b = 0;
+	int r = strlen(src;)
 
 	while (b !=  n)
 	{
@@ -21,7 +22,7 @@ char *_strncpy(char *dest, char *src, int n)
 		}
 		b++;
 	}
-	if (b - 1 >= n)
+	if (n < r)
 	{
 		dest[b] = '\0';
 	}
