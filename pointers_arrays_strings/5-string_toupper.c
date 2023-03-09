@@ -3,6 +3,7 @@
 
 /**
  * string_toupper - hola
+ * @str: holaaa
  * Return: 0.
  */
 
@@ -14,7 +15,7 @@ char *string_toupper(char *str)
 	for (b = 0; b <= r; b++)
 		if (str[b] >= 'a' && str[b] <= 122)
 		{
-			str[b] = str[b] -32;
+			str[b] = str[b] - 32;
 		}
 	return (str);
 }
