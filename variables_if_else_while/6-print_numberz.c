@@ -3,11 +3,11 @@
 int
 main(void)
 {
-	char n = '0';
+	int n = 0;
 
-	while (n != '9' + 1)
+	while (n != 9 + 1)
 	{
-		putchar(n);
+		putchar(n + '0');
 		n++;
 	}
 	putchar('\n');
