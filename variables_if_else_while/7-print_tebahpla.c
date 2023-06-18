@@ -5,7 +5,7 @@ main(void)
 {
 	char f = 'z';
 
-	while (f != 'a' -1)
+	while (f != 'a' - 1)
 	{
 		putchar(f);
 		f--;
