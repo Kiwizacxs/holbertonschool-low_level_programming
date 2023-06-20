@@ -14,6 +14,8 @@ print_to_98(int n)
 		}
 		else
 			h = n;
+		if (h == 98)
+			_putchar('9'), _putchar('8');
 		if (h > 98)
 			{
 				if (h > 99)
