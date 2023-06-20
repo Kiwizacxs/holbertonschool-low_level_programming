@@ -15,9 +15,9 @@ times_table(void)
 			_putchar((b * a) % 10 + '0');
 			if (b < 9)
 				_putchar(',');
-			if ((a * (b + 1)) <= 9)
+			if ((a * (b + 1)) <= 9 && b < 9)
 				_putchar(' '), _putchar(' ');
-			else if (a <= 9)
+			else if (a <= 9 && b < 9)
 				_putchar(' ');
 		}
 		_putchar('\n');
