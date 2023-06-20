@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 void
-print_numbers(void)
+print_most_numbers(void)
 {
 	int a = 0;
 
