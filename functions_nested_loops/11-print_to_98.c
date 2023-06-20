@@ -16,13 +16,14 @@ print_to_98(int n)
 			h = n;
 		if (h == 98)
 			_putchar('9'), _putchar('8');
+
 		if (h > 98)
-			{
-				if (h > 99)
-					_putchar((h / 100) + '0');
-				_putchar((h / 10) % 10 + '0');
-				_putchar((h % 10) + '0');
-			}
+		{
+			if (h > 99)
+				_putchar((h / 100) + '0');
+			_putchar((h / 10) % 10 + '0');
+			_putchar((h % 10) + '0');
+		}
 		if (h > 9 && h < 98)
 			_putchar((h / 10) + '0'), _putchar((h % 10) + '0');
 		else if (h < 10)
@@ -30,7 +31,7 @@ print_to_98(int n)
 		_putchar(','), _putchar(' ');
 		if (n < 98)
 			n++;
-		else 
+		else
 			n--;
 
 	}
