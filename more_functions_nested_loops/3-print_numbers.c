@@ -4,9 +4,9 @@
 void
 print_numbers(void)
 {
-	int a = 48;
+	int a = 1;
 
-	while (a != 58)
+	while (a != 10)
 	{
 		_putchar(a + '0');
 		a++;
