@@ -11,13 +11,13 @@ print_diagonal(int n)
 	else
 		while (a < n)
 		{
-			_putchar(92), _putchar('\n');
-			a++;
 			while (b != a)
 			{
 				_putchar(' ');
 				b++;
 			}
 			b = 0;
+			_putchar(92), _putchar('\n');
+			a++;
 		}
 }
