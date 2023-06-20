@@ -25,7 +25,7 @@ jack_bauer(void)
 		if (g == 9)
 		{
 			n++;
-			g = 0;
+			g = -1;
 		}
 		g++;
 	}
