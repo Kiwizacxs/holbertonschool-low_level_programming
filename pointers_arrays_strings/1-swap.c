@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stddef.h>
 
-void swap_int(int *a, int *b)
+void
+swap_int(int *a, int *b)
 {
 	int save = *a;
 
