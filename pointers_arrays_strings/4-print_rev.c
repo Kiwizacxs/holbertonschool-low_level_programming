@@ -10,7 +10,11 @@ print_rev(char *s)
 	{
 		count++;
 	}
-	for(; count >= 0; count--)
-		s--, _putchar(*s);
+	while(count != 0)
+	{
+		count--;
+		s--;
+		_putchar(*s);
+	}
 	_putchar('\n');
 }
