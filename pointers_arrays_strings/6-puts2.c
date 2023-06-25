@@ -8,7 +8,7 @@ puts2(char *str)
 	{
 		_putchar(*str);
 		str = str + 2;
-		if (*str - 1 == '\0')
+		if (str-- == '\0')
 			break;
 	}
 	_putchar('\n');
