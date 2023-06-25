@@ -6,10 +6,10 @@ puts2(char *str)
 {
 	while (*str != '\0')
 	{
-		if (*str + 1 == '\0')
-			   break;
 		_putchar(*str);
 		str = str + 2;
+		if (*str + 1 == '\0')
+			break;
 	}
 	_putchar('\n');
 }
