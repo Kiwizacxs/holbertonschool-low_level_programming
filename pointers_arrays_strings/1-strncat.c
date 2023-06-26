@@ -10,7 +10,7 @@ char
 	int r = 0;
 
 	if (n > g)
-			n = g;
+		n = g;
 	while (r < n)
 	{
 		dest[i] = src[r];
