@@ -5,7 +5,7 @@
 int
 _atoi(char *s)
 {
-	int num = 0;
+	unsigned int num = 0;
 	int count = 0;
 	int sig = 0;
 
@@ -27,7 +27,5 @@ _atoi(char *s)
 	}
 	if (sig < 0)
 		num = num * -1;
-	if (num == INT_MIN)
-		return (INT_MIN);
 	return (num);
 }
