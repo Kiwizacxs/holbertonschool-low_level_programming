@@ -26,5 +26,7 @@ _atoi(char *s)
 	}
 	if (sig < 0)
 		num = num * -1;
+	if (num == INT_MIN)
+		return (INT_MIN);
 	return (num);
 }
