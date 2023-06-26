@@ -15,7 +15,7 @@ _atoi(char *s)
 		if (s[count] == 45)
 			sign_negative++;
 		else if (s[count] == 43)
-			sig_positive++;
+			sign_positive++;
 		if (s[count] >= 48 && s[count] <= 57)
 		{
 			num = num + s[count] % 48;
@@ -26,7 +26,7 @@ _atoi(char *s)
 		}
 		count++;
 	}
-	if (sign_negative = 1)
+	if (sign_negative == 1)
 		num = num * -1;
 	else if (sign_negative > sign_positive)
 		num = num * -1;
