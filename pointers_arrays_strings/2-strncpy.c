@@ -6,11 +6,16 @@ char
 {
 	int r = 0;
 
-	while (r != n  && src[r] != '\0')
+	while (r != n)
 	{
 		dest[r] = src[r];
 		r++;
+		if (src[r] == '\0')
+		{
+			dest[r] = '\0';
+			break;
+		}
 	}
-	dest[r] = '\0';
+
 	return (dest);
 }
