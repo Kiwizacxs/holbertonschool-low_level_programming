@@ -6,16 +6,16 @@ char
 *_strncpy(char *dest, char *src, int n)
 {
 	int r = 0;
-	int a = strlen(src);
+	int a = strlen(src) + 1;
 
-	if (a < n)
-		n = a + 1;
+	while (r < n && a >= r)
+	{
+		dest[r] = src[r];
+		r++;
+	}
 	while (r != n)
 	{
-		if (*src == '\0')
-			dest[r] = '\0';
-		else
-			dest[r] = src[r];
+		dest[r] = '\0';
 		r++;
 	}
 
