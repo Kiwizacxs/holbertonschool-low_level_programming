@@ -13,7 +13,7 @@ char
 		dest[r] = src[r];
 		r++;
 	}
-	while (r != n)
+	while (r < n)
 	{
 		dest[r] = '\0';
 		r++;
