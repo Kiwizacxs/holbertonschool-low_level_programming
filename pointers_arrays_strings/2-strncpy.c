@@ -12,7 +12,10 @@ char
 		n = a + 1;
 	while (r != n)
 	{
-		dest[r] = src[r];
+		if (*src == '\0')
+			dest[r] = '\0';
+		else
+			dest[r] = src[r];
 		r++;
 	}
 
