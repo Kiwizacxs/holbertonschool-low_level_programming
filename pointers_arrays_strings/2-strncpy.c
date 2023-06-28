@@ -8,11 +8,6 @@ char
 	int r = 0;
 	int a = strlen(src);
 
-	if (*src == '\0')
-	{
-		*dest = '\0';
-		return (dest);
-	}
 	if (a < n)
 		n = a + 1;
 	while (r != n)
