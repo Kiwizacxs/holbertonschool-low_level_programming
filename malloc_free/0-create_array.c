@@ -8,6 +8,8 @@ char
 	char *array;
 	unsigned int count;
 
+	if (size == 0)
+		return (NULL);
 	array = malloc(size);
 	if (array == NULL)
 		return (NULL);
