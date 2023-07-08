@@ -9,6 +9,12 @@ char
 	int d = 0;
 	int a = 0;
 
+	if (s1 == NULL && s2 == NULL)
+		return (NULL);
+	if (s1 && s2 == NULL)
+		return (s1);
+	if (s2 && s1 == NULL)
+		return (s2);
 	c = malloc(strlen(s1) + strlen(s2) + 1);
 	if (c == NULL)
 	{
