@@ -12,10 +12,10 @@ char
 		return (NULL);
 	new_string = malloc(strlen(str) + 1);
 	if (new_string == NULL)
-		{
-			free(new_string);
-			return (NULL);
-		}
+	{
+		free(new_string);
+		return (NULL);
+	}
 	while (str[count] != '\0')
 	{
 		new_string[count] = str[count];
