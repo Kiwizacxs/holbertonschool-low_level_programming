@@ -13,7 +13,10 @@ int
 		return (NULL);
 	a = (int **)malloc(height * sizeof(int *));
 	if (a == NULL)
+	{
+		free (a);
 		return (NULL);
+	}
 	for (b = 0; b < height; b++)
 	{
 		a[b] = (int *)malloc(width * sizeof(int));
