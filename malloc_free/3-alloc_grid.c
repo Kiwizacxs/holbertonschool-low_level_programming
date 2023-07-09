@@ -14,7 +14,6 @@ int
 	a = (int **)malloc(height * sizeof(int *));
 	if (a == NULL)
 	{
-		free(a);
 		return (NULL);
 	}
 	for (b = 0; b < height; b++)
@@ -24,6 +23,7 @@ int
 		{
 			for (c = 0; c < b; c++)
 				free(a[c]);
+			free(a);
 			return (NULL);
 		}
 		for (c = 0; c < width; c++)
