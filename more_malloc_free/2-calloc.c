@@ -9,7 +9,7 @@ void
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
-	c = malloc(nmemb * (size + 4));
+	c = malloc(nmemb * size * 4);
 		if (c == NULL)
 			return (NULL);
 	for (a = 0; a < (size * nmemb); a++)
