@@ -5,18 +5,15 @@ void
 *_calloc(unsigned int nmemb, unsigned int size)
 {
 	int *c;
-	unsigned int a = 0;
+	unsigned int a;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 	c = malloc(nmemb * size);
 		if (c == NULL)
 			return (NULL);
-	while (a < nmemb * size)
-	{
+	for (a = 0; a < nmemb * size; a++)
 		c[a] = 0;
-		a++;
-	}
 	return (c);
 }
 
