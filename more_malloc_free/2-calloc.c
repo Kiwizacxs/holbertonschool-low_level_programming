@@ -12,7 +12,7 @@ void
 	c = malloc(nmemb * size);
 		if (c == NULL)
 			return (NULL);
-	for (a = 0; a < nmemb * size; a++)
+	for (a = 0; a < nmemb; a++)
 		c[a] = 0;
 	return (c);
 }
