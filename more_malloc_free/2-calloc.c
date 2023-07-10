@@ -11,10 +11,8 @@ void
 		return (NULL);
 	c = malloc(nmemb * size);
 		if (c == NULL)
-		{ 
 			return (NULL);
-		}
-	while (a != nmemb)
+	while (a != nmemb * size)
 	{
 		c[a] = 0;
 		a++;
