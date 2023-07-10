@@ -8,13 +8,13 @@ int
 	int *a;
 	int b = 0;
 
-	if (min >= max)
+	if (min > max)
 		return (NULL);
-	a = malloc((max - min) * sizeof(int));
+	a = malloc((max - min + 1) * sizeof(int));
 	if (a == NULL)
 		return (NULL);
 
-	while (min < max)
+	while (min <= max)
 	{
 		a[b] = min;
 		b++;
