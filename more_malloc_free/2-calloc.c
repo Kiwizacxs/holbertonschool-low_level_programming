@@ -9,11 +9,12 @@ void
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
-	c = malloc(nmemb * size);
+	c = malloc(nmemb * size + 1);
 		if (c == NULL)
 			return (NULL);
 	for (a = 0; a < nmemb; a++)
 		c[a] = 0;
+	c[a] = '\0';
 	return (c);
 }
 
