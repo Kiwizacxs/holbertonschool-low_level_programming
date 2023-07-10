@@ -8,7 +8,7 @@ int
 	int *a;
 	int b = 0;
 
-	if (min > max)
+	if (min >= max)
 		return (NULL);
 	a = malloc((max - min) * sizeof(int));
 	if (a == NULL)
