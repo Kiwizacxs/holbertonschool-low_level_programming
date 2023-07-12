@@ -2,12 +2,19 @@
 #define HOLA
 #include <stdio.h>
 
-typedef
-struct dog
+/**
+ * struct dog - hola
+ * @name: dog's name
+ * @age: dog's age
+ * @owner: dog's owner
+ */
+
+typedef struct
+dog
 {
 	char *name;
 	float age;
 	char *owner;
-}dog;
+} dog_t;
 
 #endif
