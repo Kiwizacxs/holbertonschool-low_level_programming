@@ -1,4 +1,4 @@
-#ifdef HOLA
+#ifndef HOLA
 #define HOLA
 #include <stdio.h>
 
