@@ -23,7 +23,7 @@ list_t
 		{
 			current = current->next;
 		}
+		current->next = new_node;
 	}
-	current->next = new_node;
 	return (new_node);
 }
