@@ -8,13 +8,15 @@ char
 	int r = 0;
 	int a = strlen(src) + 1;
 
-	while (r <= a)
+	while (r != n && r != a)
 	{
 		dest[r] = src[r];
 		r++;
-	} 
+	}
 	if (r == n)
-		dest[r] = '\0';
+	{
+		return (dest);
+	}
 	else 
 	{
 		while (r != n)
@@ -22,8 +24,6 @@ char
 			dest[r] = '\0';
 			r++;
 		}
-		dest[r] = '\0';
 	}
-
 	return (dest);
 }
