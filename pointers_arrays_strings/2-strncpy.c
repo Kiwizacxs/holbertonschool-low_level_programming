@@ -8,12 +8,12 @@ char
 	int r = 0;
 	int a = strlen(src) + 1;
 
-	while (r < n && a >= r)
+	while (r <= a)
 	{
 		dest[r] = src[r];
 		r++;
 	}
-	while (r < n)
+	while (r != n)
 	{
 		dest[r] = '\0';
 		r++;
