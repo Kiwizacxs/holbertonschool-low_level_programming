@@ -17,7 +17,7 @@ char
 	{
 		return (dest);
 	}
-	else 
+	else
 	{
 		while (r != n)
 		{
