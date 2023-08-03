@@ -12,11 +12,16 @@ char
 	{
 		dest[r] = src[r];
 		r++;
-	}
-	while (r != n)
-	{
+	} 
+	if (r == n)
 		dest[r] = '\0';
-		r++;
+	else 
+	{
+		while (r != n)
+		{
+			dest[r] = '\0';
+			r++;
+		}
 	}
 
 	return (dest);
