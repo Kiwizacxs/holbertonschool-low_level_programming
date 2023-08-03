@@ -22,6 +22,7 @@ char
 			dest[r] = '\0';
 			r++;
 		}
+		dest[r] = '\0';
 	}
 
 	return (dest);
