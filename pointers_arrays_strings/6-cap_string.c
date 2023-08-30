@@ -5,6 +5,8 @@ char
 {
 	int len = 0;
 
+	if (str[0] < 123 && str[0] > 90)
+		str[0] = str[0] - 32;
 	while (str[len] != '\0')
 	{
 		if (str[len] < 123 && str[len] > 90)
