@@ -13,5 +13,5 @@ char
 		}
 		len++;
 	}
-	return(str);
+	return (str);
 }
