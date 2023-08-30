@@ -6,6 +6,7 @@ reverse_array(int *a, int n)
 	int len = 0;
 	int aux = 0;
 	int i = n / 2;
+	
 	n--;
 	if (n > 0)
 	{
