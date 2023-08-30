@@ -1,6 +1,7 @@
 #include "main.h"
 
-void reverse_array(int *a, int n)
+void
+reverse_array(int *a, int n)
 {
 	int len = 0;
 	int aux = 0;
@@ -8,7 +9,7 @@ void reverse_array(int *a, int n)
 
 	if (n < 0)
 	{
-		n = 15;
+		n = 14;
 	}
 	n--;
 	len = 0;
