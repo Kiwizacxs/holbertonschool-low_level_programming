@@ -12,8 +12,8 @@
 
 int binary_search(int *array, size_t size, int value)
 {
-	size_t len = 0, i = 0, finish = 0, aux;
-	int fail, h = 0;
+	size_t len = 0, i = 0, finish = 0, aux = 0;
+	int fail = 0, h = 0;
 
 	if (array == NULL)
 	{
