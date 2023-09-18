@@ -28,7 +28,9 @@ int binary_search(int *array, size_t size, int value)
 			len++;
 		if (h == 3)
 		{
-			printf("%d\n", array[len - 1]);
+			if (array[len] != value)
+				len--;
+			printf("%d\n", array[len]);
 			break;
 		}
 		while (i != size - 1)
@@ -42,9 +44,7 @@ int binary_search(int *array, size_t size, int value)
 		if (len >= size - aux / 2)
 			len = size - aux / 2, i = size - aux / 2;
 		else
-		{
 			size--, size = size / 2, i = 0;
-		}
 		aux = aux / 2, h++;
 	}
 	if (fail == -1)
