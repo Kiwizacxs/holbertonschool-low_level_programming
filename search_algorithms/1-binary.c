@@ -26,10 +26,8 @@ int binary_search(int *array, size_t size, int value)
 		printf("Searching in array: ");
 		while (len != size && array[len] != value)
 			len++;
-		if (h == 3)
+		if (h == 3 && array[len] == value)
 		{
-			if (array[len] != value)
-				len--;
 			printf("%d\n", array[len]);
 			break;
 		}
@@ -47,6 +45,8 @@ int binary_search(int *array, size_t size, int value)
 			size--, size = size / 2, i = 0;
 		aux = aux / 2, h++;
 	}
+	if (array[len] != value && finish == 2)
+		printf("Searching in array: %d\n", array[len]);
 	if (fail == -1)
 		return (-1);
 
