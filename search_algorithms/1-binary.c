@@ -32,7 +32,7 @@ int binary_search(int *array, size_t size, int value)
 			i++, finish++;
 		}
 		printf("%d\n", array[i]);
-		if(array[len] != value || len == size)
+		if (array[len] != value || len == size)
 		{
 			finish++, fail = -1;
 		}
