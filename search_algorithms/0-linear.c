@@ -9,7 +9,7 @@
  * Return: at find value, te function will return the first index where value
  * is located.
  */
- 
+
 int linear_search(int *array, size_t size, int value)
 {
 	int n = 0;
